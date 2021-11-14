@@ -1,0 +1,41 @@
+{
+	"name": "react_webpack_starter",
+	"version": "1.0.0",
+	"description": "starter for webpack",
+	"main": "index.js",
+	"scripts": {
+		"start": "webpack-dev-server --mode development --open --hot",
+		"build": "webpack --mode production",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Serdar",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/preset-env": "^7.16.0",
+		"@babel/preset-react": "^7.16.0",
+		"@reduxjs/toolkit": "^1.6.2",
+		"axios": "^0.24.0",
+		"css-loader": "^6.5.1",
+		"html-loader": "^3.0.1",
+		"moment": "^2.29.1",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-redux": "^7.2.6",
+		"react-router-dom": "^6.0.2",
+		"redux": "^4.1.2",
+		"redux-thunk": "^2.4.0",
+		"style-loader": "^3.3.1"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0-beta.40",
+		"@babel/core": "^7.0.0-beta.40",
+		"@babel/plugin-transform-runtime": "^7.16.0",
+		"@svgr/webpack": "^5.5.0",
+		"babel-loader": "^8.0.0-beta.0",
+		"html-webpack-plugin": "^5.5.0",
+		"svg-url-loader": "^7.1.1",
+		"webpack": "^5.64.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.4.0"
+	}
+}

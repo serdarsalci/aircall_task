@@ -1,0 +1,78 @@
+.call-item {
+	background-color: #fff;
+	border: 2px #eeeeed solid;
+	min-height: 50px;
+	border-radius: 12px;
+	margin: 10px 0;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 0;
+}
+
+.leadingIcon svg {
+	width: 16px;
+	padding: 12px;
+	opacity: 0.7;
+	max-width: 40px;
+	max-height: 30px;
+}
+
+.ampm-box {
+	border: 1px solid gray;
+	margin-right: 0;
+	padding: 4px;
+	font-weight: bold;
+	font-size: 0.6rem;
+	opacity: 0.4;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	display: inline-flex;
+	align-items: center;
+	border-right: none;
+}
+
+.time {
+	margin-right: 5px;
+	opacity: 0.4;
+	font-weight: bold;
+}
+
+.time-container {
+	/* height: 50px; */
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.call-info {
+	line-height: 1.2rem;
+	flex-grow: 1;
+	padding-left: 10px;
+	opacity: 0.7;
+}
+
+#from {
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+	opacity: 0.8;
+}
+
+.red {
+	color: red;
+}
+
+.btn {
+	width: 100%;
+	padding: 5px;
+}
+.center {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

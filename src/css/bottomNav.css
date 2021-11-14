@@ -1,0 +1,37 @@
+.bottom-nav {
+	width: 100%;
+	min-height: 60px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 999;
+	position: absolute;
+	padding: 0;
+}
+
+.bottom-row {
+	/* position: fixed; */
+	/* border: 2px solid green; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: sticky;
+	height: inherit;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.contacts {
+	/* height: 30px; */
+	width: 20px;
+	padding-bottom: 6px;
+	border-bottom: 4px solid greenyellow;
+}
+
+.dialpad {
+	/* height: 50px; */
+	background-color: green;
+	color: aliceblue;
+	padding: 10px;
+	border-radius: 50%;
+	/* width: 50px; */
+}
