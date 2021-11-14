@@ -4,9 +4,11 @@
 	"description": "starter for webpack",
 	"main": "index.js",
 	"scripts": {
-		"start": "webpack-dev-server --mode development --open --hot",
+		"dev": "webpack-dev-server --mode development --open --hot",
+		"postinstall": "webpack --mode production",
 		"build": "webpack --mode production",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js"
 	},
 	"author": "Serdar",
 	"license": "ISC",
@@ -16,6 +18,7 @@
 		"@reduxjs/toolkit": "^1.6.2",
 		"axios": "^0.24.0",
 		"css-loader": "^6.5.1",
+		"express": "^4.17.1",
 		"html-loader": "^3.0.1",
 		"moment": "^2.29.1",
 		"react": "^17.0.2",
