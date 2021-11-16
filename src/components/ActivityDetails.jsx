@@ -5,7 +5,7 @@ import {
 	getActivityDetails,
 	archiveActivity,
 	unArchiveActivity,
-} from '../features/calls/callsSlice';
+} from '../api.js';
 import IncomingPhone from '../images/incoming-call.svg';
 import OutgoingCall from '../images/outgoing.svg';
 import moment from 'moment';
